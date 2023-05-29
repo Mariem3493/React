@@ -1,7 +1,10 @@
 import React from "react";
+{/* importation du composant boostrap */}
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+{/* importation de notre fichier stylesheet */}
 import './formulo.css';
+{/* Fonction Formulo */}
 function Formulo() {
     return (
         <div>
@@ -14,7 +17,7 @@ function Formulo() {
           We'll never share your email with anyone else.
         </Form.Text>
       </Form.Group>
-
+{/* Création du formulaire à l'aide du composant form du composant boostrap */}
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="Password" />
