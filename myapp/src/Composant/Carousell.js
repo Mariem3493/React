@@ -1,14 +1,22 @@
 import React from "react";
+{/* importation de nos composants de boostrap */}
+
 import Carousel from 'react-bootstrap/Carousel';
+{/* importation de nos images */}
+
 import image1 from '../Assets/1.jpg';
 import image2 from '../Assets/2.jpg';
 import image3 from '../Assets/3.jpg';
+{/* function Carousell */}
+
 function Carousell(){
     return (
         <div>
             <h1 style={{textAlign : "center", color : "red"}}>Hello JSX</h1>
             <Carousel>
       <Carousel.Item>
+        {/* insertion de nos images à l'aide du taget img */}
+
         <img
           className="d-block w-100"
           src={image1}
